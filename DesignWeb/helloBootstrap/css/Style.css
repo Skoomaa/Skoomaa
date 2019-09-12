@@ -21,7 +21,17 @@
 
 .black{
     height: 400px;
+    width: 100% ;
     background-color: black;
+}
+.grey{
+
+    background-color: #1b1e21;
+
+    height: 800px  ;
+    background-size: cover  ;
+    margin: 0 ;
+    padding: 0 ;
 }
 .blank{
     height 400px;
@@ -29,7 +39,7 @@
 }
 .bg{
 
-    background-image: url("../img/691200-beautiful-1920x1080-hd-wallpaper-1920x1080.jpg");
+    background-image: url("../img/691200-beautiful-1920x1080-hd-wallpaper-1920x1080 - Copie.jpg") ;
 
     height: 800px  ;
     background-size: cover  ;
@@ -44,6 +54,12 @@ html{
 h1{
     font-size: 8rem;
     color: #721c24;
+
+}
+.h2{
+
+    font-size: 5rem;
+    color: #721c24;
 }
 hr{
     padding-bottom:30px;
@@ -52,7 +68,39 @@ hr{
     border-width: 3px;
     border-color: #721c24  ;
 }
+.hrw{
+    padding-bottom:30px;
+    padding-top:30px;
+    max-width: 400px;
+    border-width: 3px;
+    border-color : white  ;
+}
+
 p{
     color: #721c24;
     font-size: 5rem;
+
+}
+
+.bgwhite{
+    height: 400px;
+    width: 100% ;
+    background-color: white;
+}
+.i{
+    height: 400px;
+    width: 100% ;
+}
+.button {
+    background-color: #5a6268;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
 }
