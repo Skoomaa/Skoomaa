@@ -28,7 +28,7 @@
 
     background-color: #1b1e21;
 
-    height: 800px  ;
+    height: 400px  ;
     background-size: cover  ;
     margin: 0 ;
     padding: 0 ;
@@ -52,13 +52,14 @@ html{
 
 }
 h1{
-    font-size: 8rem;
+    font-size: 6rem;
     color: #721c24;
+
 
 }
 .h2{
 
-    font-size: 5rem;
+    font-size: 4rem;
     color: #721c24;
 }
 hr{
@@ -78,7 +79,7 @@ hr{
 
 p{
     color: #721c24;
-    font-size: 5rem;
+    font-size: 3rem;
 
 }
 
@@ -103,4 +104,9 @@ p{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 25px;
+}
+h2{
+    font-size: 4rem;
+    color: #721c24;
+
 }
