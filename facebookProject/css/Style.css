@@ -1,0 +1,105 @@
+html , body {
+    font-size: 10px ;
+    height: 100%;
+    background-color: #1b1e21;
+}
+
+.bg{
+    background-color: #6c757d;
+}
+
+.yel{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.gre{
+    background-color: greenyellow;
+}
+
+.card-body {
+
+
+    background-color: white;
+    width: 100%;
+}
+
+.buttonr{
+    background-color: red ;
+    border-radius: 7px;
+}
+.buttonb{
+    background-color: blue ;
+    border-radius: 7px;
+
+}
+.buttony{
+    background-color: yellow ;
+    border-radius: 7px;
+}
+.buttong {
+    background-color: green;
+    border-radius: 7px;
+}
+.buttonbl{
+    background-color: deepskyblue ;
+    border-radius: 7px;
+}
+.buttonba{
+    background-color: darkgrey ;
+    border-radius: 7px;
+}
+.space{
+
+    padding: 20px;
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+}
+
+.user{
+    width: 262px;
+
+}
+
+.w-100{
+    max-width: 100%;
+}
+}
+img{
+    border-radius: 50%;
+}
+.backgroundlightgreen{
+    background-color: lightgreen;
+}
+h5{
+    font-size: 10rem;
+}
+.badge{
+    size: 200px;
+}
+p{
+    font-size: 2rem;
+    text-align: justify;
+}
+h1 {
+    font-size: 6rem;
+}
+.lightgrey{
+    background-color: lightgrey;
+}
+.bigbutton{
+    font-size: 1.7rem;
+}
+.h4{
+    font-size: 2rem;
+}
+h5{
+    font-size: 2rem;
+}
