@@ -20,9 +20,11 @@ html,body {
 }
 
 .bgnob{
-    background-color: #0f6674;
-    opacity: .50;
-    align-content: baseline;
+    background-color: rgba(200,35,51,0.2);
+    color: black;
+    padding: 30px;
+    padding-bottom: 50px;
+
 }
 .bgnog{
     background-color: #6c757d;
@@ -98,6 +100,21 @@ p{
 }
 .fa-rocket{
     color: #c82333;
+
+}h6{
+     padding-bottom: 40px;
+     font-size: 4.7rem;
+     color: #c82333;
+ }
+h2{
+    padding-bottom: 40px;
+    font-size: 4rem;
+    color: #c82333;
+}
+h3{
+    padding-bottom: 40px;
+    font-size: 4rem;
+    color: red;
 }
 @media screen and (max-width: 800px) {
 
@@ -106,10 +123,11 @@ p{
     }
 
     h5 {
-        padding: 0;
+
         font-size: 3rem;
         align-items: center;
         text-align: center;
+        font-weight: bold;
     }
 
     p {
@@ -120,23 +138,39 @@ p{
         font-size: 2.5rem;
         padding: 0;
         text-align: left;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 2rem;
+        padding: 0;
+        text-align: left;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 2rem;
+        padding:;
+
     }
     .parallax1{
         padding-top: 50px;
     }
     .parallax{
         background-image: url("../img/last.jpg");
+        padding: 0px;
     }
+    h6{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
 }
-h6{
-    padding-bottom: 40px;
-    font-size: 4.7rem;
-    color: #c82333;
+
+
+.gap{
+    height:300px;
 }
-h2{
-    padding-bottom: 40px;
-    font-size: 3rem;
-    color: #c82333;
+.minigap{
+    height: 45px;
 }
 
 
