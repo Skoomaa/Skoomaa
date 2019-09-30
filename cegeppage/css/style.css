@@ -10,7 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px;
+
 }
 html,body {
     margin:0;
@@ -22,14 +22,13 @@ html,body {
 .bgnob{
     background-color: rgba(200,35,51,0.2);
     color: black;
-    padding: 30px;
-    padding-bottom: 50px;
+
 
 }
 .bgnog{
     background-color: #6c757d;
     opacity: .50;
-align-content: end;
+
 }
 .parallax1 {
     /* L’image du Parallax */

@@ -29,10 +29,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilisateur\Documents\GitHub\Skoomaa\cegeppage\img" />
       <recent name="C:\Users\Utilisateur\Documents\GitHub\Skoomaa\cegeppage" />
     </key>
   </component>
@@ -60,6 +61,8 @@
       <updated>1569529418126</updated>
       <workItem from="1569529419653" duration="8573000" />
       <workItem from="1569633215933" duration="11267000" />
+      <workItem from="1569654513742" duration="73000" />
+      <workItem from="1569869478859" duration="1987000" />
     </task>
     <servers />
   </component>
