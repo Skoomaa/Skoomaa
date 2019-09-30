@@ -151,11 +151,21 @@ h3{
 
     }
     .parallax1{
-        padding-top: 50px;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
     .parallax{
         background-image: url("../img/last.jpg");
-        padding: 0px;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
     h6{
         font-size: 2rem;
