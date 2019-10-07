@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/612140ae96.js"></script>
+
+    <title>formulaire</title>
+</head>
+<body>
+
+<form>
+    <div class="container-fluid">
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="inputNom">first Name</label>
+            <input type="nom" class="form-control" id="inputNom" placeholder="Enter first name">
+        </div>
+        <div class="form-group col-12">
+            <label for="inputprenom">Name</label>
+            <input type="prenom" class="form-control" id="inputprenom" placeholder="Enter name">
+        </div>
+        <div class="form-group col-12">
+            <label for="inputcode">Code type</label>
+            <select id="inputcode" class="form-control">
+                <option selected>Choose...</option>
+                <option>html</option>
+                <option>CSS</option>
+                <option>bootstrap</option>
+                <option>jquery</option>
+                <option>Java script</option>
+            </select>
+        </div>
+        <div class="form-group col-12">
+            <label for="longtext">Long text</label>
+            <textarea class="form-control" id="longtext" rows="3" placeholder="Enter long text"></textarea>
+        </div>
+        <div class="custom-control custom-radio col-12">
+            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio1">Urgent</label>
+        </div>
+        <div class="custom-control custom-radio col-12">
+            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio2">Important</label>
+        </div>
+        <div class="custom-control custom-radio col-12">
+            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio2">peut attendre</label>
+        </div>
+        <button class="btn btn-primary" type="submit">reset</button>
+
+    </div>
+
+</form>
+<form action="FormulaireEnvoye.html">
+    <br>
+    <input type="submit" value="Accéder à FormulaireEnvoye.html." />
+</form>
+            <script src="js/jquery-3.4.1.min%20(1).js"></script>
+        <script src="js/bootstrap.js"></script>
+</body>
+</html>
