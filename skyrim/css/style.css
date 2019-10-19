@@ -1,0 +1,481 @@
+/* style.css */
+/* Programmé par Félix Lavigne*/
+/* Le 17 Octobre 2019 */
+
+html,body {
+    margin: 0;
+    height: 100%;
+    font-size: 10px;
+
+}
+@font-face {
+    font-family: goth;
+    src: url("../Font/A Gothique Time .ttf ")
+}
+@font-face {
+    font-family: goth;
+    src: url("../Font/A_Gothique_Time_.eot");
+}
+hr{
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 100px;
+}
+.bdw{
+    border-color: white;
+}
+.paramage{
+    /* L’image du Parallax */
+    background-image: url("../img/thumb-1920-358424.png");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paraguerrier{
+    /* L’image du Parallax */
+    background-image: url("../img/skyguerrier.png");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgguerrier{
+    /* L’image du Parallax */
+    background-image: url("../img/warriorfit.jpeg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgmage{
+    /* L’image du Parallax */
+    background-image: url("../img/mage.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mt{
+margin-top: 60px;
+}
+h8{
+    font-family: goth;
+    font-size: 14rem;
+    color: black;
+}
+h10{
+    font-family: goth;
+    font-size: 8rem;
+    color: white;
+}
+h9{
+    font-family: goth;
+    font-size: 14rem;
+    color: white;
+}
+h11{
+    font-family: goth;
+    font-size: 14rem;
+    color: white;
+}
+h9{
+    font-family: goth;
+    font-size: 14rem;
+    color: white;
+}
+h12{
+    font-family: goth;
+    font-size: 10rem;
+    color: white;
+}
+h20{
+    font-family: goth;
+    font-size: 14rem;
+    color: white;
+}
+.msb {
+padding-top: 300px;
+}
+
+.parallax{
+    /* L’image du Parallax */
+    background-image: url("../img/skyrimtown.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fas{
+    color: white;
+}
+.bg1{
+    background-image: url("../img/skyrim1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgblack{
+    background-color:#030303  ;
+    color: white;
+}
+.bggrey1 {
+background-color: #1d1b18;
+}
+.bggrey2 {
+background-color: #1d1b18;
+}
+h1{
+    font-size: 5.5rem;
+}
+h2{
+    font-size: 9rem;
+}
+h3 {
+font-size: 3.5rem;
+}
+h4 {
+font-size: 2rem;
+}
+.jumbotron {
+background-color: #030303 ;
+    color: white;
+}
+.close {
+    color: white;
+    opacity: 1;
+}
+.modal-dialog{
+    m
+}
+.navbar {
+    background-color: #030303 ;
+}
+.navbar .navbar-brand {
+    color: #cccece;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #ecdbff;
+}
+.navbar .navbar-text {
+    color: #cccece;
+}
+.navbar .navbar-text a {
+    color: #ecdbff;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #ecdbff;
+}
+.navbar .navbar-nav .nav-link {
+    color: #cccece;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ecdbff;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ecdbff;
+    background-color: #000000;
+}
+.navbar .navbar-toggle {
+    border-color: #000000;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #000000;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #cccece;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #cccece;
+}
+.navbar .navbar-link {
+    color: #cccece;
+}
+.navbar .navbar-link:hover {
+    color: #ecdbff;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #cccece;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ecdbff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ecdbff;
+        background-color: #000000;
+    }
+    h2{
+        font-size:7rem ;
+    }
+    h9{
+        font-family: goth;
+        font-size: 8rem;
+        color: white;
+    }
+
+    h8{
+        display: none;
+     }
+    h10{
+        font-family: goth;
+        font-size: 7rem;
+        color: white;
+    }
+    h12{
+        font-family: goth;
+        font-size: 7rem;
+        color: white;
+        align-items: center;
+        text-align: center;
+        text-align-all: center  ;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    .paramage{
+        /* L’image du Parallax */
+        background-image: url("../img/thumb-1920-358424.png");
+
+        /* L’hauteur du Parallax */
+        height: 100%;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .paraguerrier{
+        /* L’image du Parallax */
+        background-image: url("../img/skyguerrier.png");
+
+        /* L’hauteur du Parallax */
+        height: 100%;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .bgguerrier{
+        /* L’image du Parallax */
+        background-image: url("../img/warriorfit.jpeg");
+
+        /* L’hauteur du Parallax */
+        height: 100%;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .bgmage{
+        /* L’image du Parallax */
+        background-image: url("../img/mage.jpg");
+
+        /* L’hauteur du Parallax */
+        height: 100%;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .bg1{
+        background-image: url("../img/the-elder-scrolls-v-skyrim-cover.jpg  ");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h20{
+        font-family: goth;
+        font-size: 1rem;
+        color: white;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #cccece;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ecdbff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ecdbff;
+        background-color: #000000;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #cccece;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ecdbff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ecdbff;
+        background-color: #000000;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #cccece;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ecdbff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ecdbff;
+        background-color: #000000;
+    }
+    .paramage{
+        /* L’image du Parallax */
+        background-image: url("../img/thumb-1920-358424.png");
+
+        /* L’hauteur du Parallax */
+        height: 100%;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .paraguerrier{
+        /* L’image du Parallax */
+        background-image: url("../img/skyguerrier.png");
+
+        /* L’hauteur du Parallax */
+        height: 100%;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .fas{
+        font-size: 50rem;
+        color: white;
+    }
+
+    h10{
+        font-family: goth;
+        font-size: 7rem;
+        color: white;
+    }
+    h8{
+        display: none;
+    }
+    .bgguerrier{
+       background-position: center;
+}
+    .bgmage{
+        background-position: center;
+    }
+    h11{
+        font-size: 10rem;
+    }
+    h20{
+        font-family: goth;
+        font-size: 5rem;
+        color: white;
+    }
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #cccece;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ecdbff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ecdbff;
+    background-color: #000000;
+}
+
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .bg1{ background-image: url("../img/skyrimDova.jpg");
+        height: 100%;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    }
+
+}
+
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    h9{
+        font-family: goth;
+        font-size: 2rem;
+        color: white;
+    }
+
+    h8{
+        font-family: goth;
+        font-size: 2rem;
+        color: white;
+    }
+}
+/*
+
+
+
+
+
+
+
+
+
