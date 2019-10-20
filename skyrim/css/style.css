@@ -21,6 +21,11 @@ hr{
     border: 1px solid white;
     width: 100px;
 }
+.jumbohr{
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 100%;
+}
 .bdw{
     border-color: white;
 }
