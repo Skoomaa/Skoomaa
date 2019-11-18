@@ -22,9 +22,11 @@ hr{
     width: 100px;
 }
 .jumbohr{
+    align-content: right;
+    align-items: first;
     margin-top: 30px;
     border: 1px solid white;
-    width: 100%;
+    width: ;
 }
 .bdw{
     border-color: white;
