@@ -21,7 +21,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilisateur\Documents\github2\Skoomaa\skyrim\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573746117393</updated>
       <workItem from="1573746118579" duration="404000" />
-      <workItem from="1574108358263" duration="1685000" />
+      <workItem from="1574108358263" duration="1888000" />
     </task>
     <servers />
   </component>
