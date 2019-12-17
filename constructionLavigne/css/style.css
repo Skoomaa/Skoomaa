@@ -34,7 +34,10 @@ header video {
 .dark{
     filter : brightness(50%);
 }
+iframe{
+    frameborder : 0;
 
+}
 
 
 p{
