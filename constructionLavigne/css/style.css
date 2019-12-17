@@ -31,6 +31,16 @@ header video {
 .helloworld{
     font-size: 10rem;
 }
+.ytvid{
+    height: 100%;
+    width: 100% ;
+    border: 0;
+}
+.ggmap{
+    width:100%;
+    height:300px;
+    border: 0;
+}
 .dark{
     filter : brightness(50%);
 }
@@ -326,12 +336,22 @@ background-image: url("../imgConstrciton/man-sitting-on-roof-2975382.jpg");
     h10{
         font-size: 1.8rem;
     }
+    .h10{
+        font-size: 1.8rem;
+    }
     h4{
+        font-size: 1.7rem;
+    }
+    .h4{
         font-size: 1.7rem;
     }
     h7{
         font-size: 1rem;
         line-height: 0px;
+    }
+    .lasth7{
+        font-size: 1rem;
+        line-height: 20px;
     }
 a{
     font-size: 1rem;
