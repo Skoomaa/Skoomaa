@@ -52,6 +52,10 @@ h9{
     font-size: 2rem;
     color: white;
 }
+.lasth9{
+    font-size: 2rem;
+    color: white;
+}
 d9{
     font-size: 2rem;
     color: white;
@@ -85,7 +89,12 @@ h1{
     color:white ;
     line-height: 20px;
 }
-.h7{
+h7{
+    font-size: 1.5rem;
+    color:white ;
+    line-height: 40px;
+}
+.lasth7{
     font-size: 1.5rem;
     color:white ;
     line-height: 40px;
