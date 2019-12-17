@@ -18,7 +18,6 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -31,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Skoomaa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -41,7 +40,6 @@
       <recent name="C:\Users\Utilisateur\Documents\github2\constructionLavigne\imgConstrciton" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Utilisateur\Documents\github2\Skoomaa" />
       <recent name="C:\Users\Utilisateur\Documents\github2\constructionLavigne\css" />
       <recent name="C:\Users\Utilisateur\Documents\github2\constructionLavigne\imgConstrciton" />
       <recent name="C:\Users\Utilisateur\Documents\github2\constructionLavigne" />
@@ -71,7 +69,7 @@
       <updated>1576216558711</updated>
       <workItem from="1576216559814" duration="745000" />
       <workItem from="1576219035446" duration="3909000" />
-      <workItem from="1576464973898" duration="65751000" />
+      <workItem from="1576464973898" duration="63103000" />
     </task>
     <servers />
   </component>
