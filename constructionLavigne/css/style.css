@@ -1,0 +1,324 @@
+
+html,body {
+    margin:0;
+    height:100%;
+    font-size: 10px;
+    background-color: #1b1e21;
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+
+p{
+    font-size: 2rem ;
+    color: white;
+}
+h10{
+    font-size: 6rem;
+    color: white;
+}
+h9{
+    font-size: 2rem;
+    color: white;
+}
+h5{
+    color: #0a8894;
+    font-size: 2rem ;
+}
+.registre{
+    font-size: 2rem;
+    color: white;
+}
+a{
+    font-size: 1.5rem;
+}
+h2{
+    color: white;
+    font-size: 1.5rem;
+}
+.hrcol{
+    border: 1px solid white;
+}
+.card-title{
+    color:white;
+}
+.jumbotron{
+    background-color: #1b1e21;
+}
+h1{
+    font-size: 1rem;
+    color:white ;
+    line-height: 20px;
+}
+h7{
+    font-size: 1.5rem;
+    color:white ;
+    line-height: 40px;
+}
+h4{
+    font-size: 3rem;
+    color:white ;
+}
+.close{
+    color: #0a8894;
+}
+.btnclosemodal{
+    background-color: #0a8894;
+    font-size: 2rem;
+
+}
+.modal-content{
+    background-color: #1b1e21;
+    color: white;
+}
+.form-group{
+    color: white;
+}
+.card{
+    background-color: #1b1e21;
+}
+.parallax {
+    /* L’image du Parallax */
+background-image: url("../imgConstrciton/man-sitting-on-roof-2975382.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgopaque{
+    opacity: 75%;
+    background-color: #0a8894;
+}
+
+.fa-toolbox{
+    color: #0a8894;
+}
+.fa-pencil-alt{
+    color: #0a8894;
+}
+.fa-ruler-combined{
+    color: #0a8894;
+}
+#acceuiltexte{
+    font-size: 3.5rem;
+}
+
+.navtext{
+    font-size: 1.5rem;
+}
+.atcitext{
+    color: #0a8894;
+}
+.navbar {
+    background-color: #1b1e21;
+
+
+}
+.navbar .navbar-brand {
+    color: #f9f9f9;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: c;
+}
+.navbar .navbar-text {
+    color: #f9f9f9;
+}
+.navbar .navbar-text a {
+    color: #0a8894;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #0a8894;
+}
+.navbar .navbar-nav .nav-link {
+    color: #f9f9f9;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #0a8894;
+}
+.navbar .navbar-nav .dropdown-menu {
+    background-color: #1b1e21;
+    border-color: #1b1e21;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+    color: #f9f9f9;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: #0a8894;
+    background-color: #1b1e21;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+    border-top-color: #1b1e21;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #0a8894;
+    background-color: #1b1e21;
+}
+.navbar .navbar-toggle {
+    border-color: #1b1e21;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #1b1e21;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #f9f9f9;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #f9f9f9;
+}
+.navbar .navbar-link {
+    color: #f9f9f9;
+}
+.navbar .navbar-link:hover {
+    color: #0a8894;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f9f9f9;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #0a8894;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #0a8894;
+        background-color: #1b1e21;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f9f9f9;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #0a8894;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #0a8894;
+        background-color: #1b1e21;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f9f9f9;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #0a8894;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #0a8894;
+        background-color: #1b1e21;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f9f9f9;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #0a8894;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #0a8894;
+        background-color: #1b1e21;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #f9f9f9;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #0a8894;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #0a8894;
+    background-color: #1b1e21;
+}
+.actitext{
+    color: #0a8894;
+}
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    p{
+        font-size: 1.2rem;
+    }
+    h10{
+        font-size: 1.8rem;
+    }
+    h4{
+        font-size: 1.7rem;
+    }
+    h7{
+        font-size: 1rem;
+        line-height: 0px;
+    }
+a{
+    font-size: 1rem;
+}
+h2{
+    font-size: 1rem;
+}
+.card-text{
+    font-size: 0.9rem;
+}
+.card-title{
+    font-size: 1.2rem;
+}
+
+
+
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+
+}
+@media screen and (min-width: 1200px) {
+
+}
