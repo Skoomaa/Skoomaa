@@ -53,8 +53,8 @@
             <input type="email" class="form-control" id="inputEmail4" placeholder="Nom">
         </div>
         <div class="form-group col-xl-6">
-            <label for="inputState">Province</label>
-            <select id="inputState" class="form-control">
+            <label for="inputprojet">Province</label>
+            <select id="inputprojet" class="form-control">
                 <option selected>Choisir</option>
                 <option>Toiture</option>
                 <option>Revêtement</option>
@@ -70,7 +70,7 @@
     <div class="form-row">
         <div class="form-group col-xl-6">
             <label for="inputCity">Ville</label>
-            <input type="text" class="form-control" id="inputCity">
+            <input type="text" class="form-control" id="inputCity" placeholder="Montréal" >
         </div>
         <div class="form-group col-xl-4">
             <label for="inputState">Province</label>
@@ -83,24 +83,25 @@
         </div>
         <div class="form-group col-xl-2">
             <label for="inputZip">Code postal</label>
-            <input type="text" class="form-control" id="inputZip">
+            <input type="text" class="form-control" id="inputZip" placeholder="g4g 5v5">
         </div>
     </div>
 </div>
 
-</div>
+
 </form>
+</div>
 <!-- Button trigger modal -->
 <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-    Soumettre
+     <p class="h7">Soumettre</p>
 </button>
 
 <!-- Modal -->
-<div class="modal fade bgtest" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade bgtest" id="exampleModalCenter" tabindex="-1" role="dialog"  aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered text-center" role="document">
         <div class="modal-content text-center">
             <div class="modal-header text-center">
-                <h5 class="modal-title text-center align-items-center" id="exampleModalLongTitle ">Merci pour votre soummission !</h5>
+                <p class="modal-title text-center align-items-center h5" id="exampleModalLongTitle ">Merci pour votre soummission !</p>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

@@ -48,6 +48,10 @@ h10{
     font-size: 6rem;
     color: white;
 }
+.h10{
+    font-size: 6rem;
+    color: white;
+}
 h9{
     font-size: 2rem;
     color: white;
@@ -61,6 +65,10 @@ d9{
     color: white;
 }
 h5{
+    color: #0a8894;
+    font-size: 3rem ;
+}
+.h5{
     color: #0a8894;
     font-size: 3rem ;
 }
